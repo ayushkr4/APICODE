@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AlphaTestsuite">
+  	<parameter name = "Set_Flow" value="Yellow"/>
+	<parameter name = "host_name" value="https://qa-api.incred.com/v2"/> 
+	<parameter name = "Sheet_name" value="customer_dedupe"/>
+	<listeners>
+		<listener class-name="v2api_Utilities.Listeners" />
+	</listeners>
+	<test name="Apitestsuite">
+		<classes>
+			<class name="v2api_TestCaseSuit.Alpha_yellow_suit" />
+		</classes>
+	</test><!-- Test -->
+</suite><!-- Suite -->

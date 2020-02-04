@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="34" passed="32" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-25T09:01:09Z" name="AlphaTestsuite" finished-at="2019-11-25T09:01:30Z" duration-ms="20521">
+    <groups>
+    </groups>
+    <test started-at="2019-11-25T09:01:09Z" name="Apitestsuite" finished-at="2019-11-25T09:01:30Z" duration-ms="20521">
+      <class name="v2api_TestCaseSuit.Alpha_yellow_suit">
+        <test-method is-config="true" signature="sethost(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:07Z" name="sethost" finished-at="2019-11-25T09:01:09Z" duration-ms="1991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yellow]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://qa-gw.incred.com/v2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[customer_dedupe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sethost -->
+        <test-method is-config="true" signature="SetTestData()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:09Z" name="SetTestData" finished-at="2019-11-25T09:01:09Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetTestData -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:10Z" name="setup" finished-at="2019-11-25T09:01:10Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:10Z" name="initialization" finished-at="2019-11-25T09:01:10Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="GenerateOTP()[pri:1, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:10Z" name="GenerateOTP" finished-at="2019-11-25T09:01:10Z" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateOTP -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:10Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:10Z" name="initialization" finished-at="2019-11-25T09:01:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="ValidateOTP()[pri:2, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:10Z" name="ValidateOTP" finished-at="2019-11-25T09:01:11Z" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateOTP -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:11Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:11Z" name="initialization" finished-at="2019-11-25T09:01:11Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="GetDigitalPin()[pri:3, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:11Z" name="GetDigitalPin" finished-at="2019-11-25T09:01:11Z" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetDigitalPin -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:11Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:11Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:11Z" name="initialization" finished-at="2019-11-25T09:01:11Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="UpdateDigitalPin()[pri:4, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:11Z" name="UpdateDigitalPin" finished-at="2019-11-25T09:01:11Z" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateDigitalPin -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:11Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:11Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:11Z" name="initialization" finished-at="2019-11-25T09:01:11Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="FatchCustomerDetail()[pri:5, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:11Z" name="FatchCustomerDetail" finished-at="2019-11-25T09:01:12Z" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FatchCustomerDetail -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:12Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:12Z" name="initialization" finished-at="2019-11-25T09:01:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="FetchGPSlocation()[pri:6, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:12Z" name="FetchGPSlocation" finished-at="2019-11-25T09:01:13Z" duration-ms="1614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FetchGPSlocation -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:13Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:13Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method signature="ServiceablityCheck()[pri:7, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:13Z" name="ServiceablityCheck" finished-at="2019-11-25T09:01:14Z" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServiceablityCheck -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:13Z" name="initialization" finished-at="2019-11-25T09:01:13Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:14Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:14Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:14Z" name="initialization" finished-at="2019-11-25T09:01:14Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="ValidatePancard()[pri:8, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:14Z" name="ValidatePancard" finished-at="2019-11-25T09:01:14Z" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePancard -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:14Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:14Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:14Z" name="initialization" finished-at="2019-11-25T09:01:14Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="CreateCustomer()[pri:9, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:14Z" name="CreateCustomer" finished-at="2019-11-25T09:01:14Z" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:14Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:14Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:14Z" name="initialization" finished-at="2019-11-25T09:01:14Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="LinkLocationDetails()[pri:10, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:14Z" name="LinkLocationDetails" finished-at="2019-11-25T09:01:15Z" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkLocationDetails -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:15Z" name="initialization" finished-at="2019-11-25T09:01:15Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:15Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:15Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method signature="Decision1Initiate()[pri:12, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:15Z" name="Decision1Initiate" finished-at="2019-11-25T09:01:15Z" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Decision1Initiate -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:15Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:15Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:15Z" name="initialization" finished-at="2019-11-25T09:01:15Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="Decision1Status()[pri:13, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:15Z" name="Decision1Status" finished-at="2019-11-25T09:01:18Z" duration-ms="2640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Decision1Status -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:18Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:18Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:18Z" name="initialization" finished-at="2019-11-25T09:01:18Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="Decision1Result()[pri:14, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:18Z" name="Decision1Result" finished-at="2019-11-25T09:01:18Z" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Decision1Result -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:18Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:18Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method signature="Applicationcreate()[pri:15, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:18Z" name="Applicationcreate" finished-at="2019-11-25T09:01:19Z" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Applicationcreate -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:18Z" name="initialization" finished-at="2019-11-25T09:01:18Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:19Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:19Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:19Z" name="initialization" finished-at="2019-11-25T09:01:19Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="GetAddressdetails()[pri:16, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:19Z" name="GetAddressdetails" finished-at="2019-11-25T09:01:20Z" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAddressdetails -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:20Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:20Z" name="initialization" finished-at="2019-11-25T09:01:20Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="AddressUpdate()[pri:17, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:20Z" name="AddressUpdate" finished-at="2019-11-25T09:01:20Z" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressUpdate -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:20Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:20Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:20Z" name="initialization" finished-at="2019-11-25T09:01:20Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="FatchProfile()[pri:18, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:20Z" name="FatchProfile" finished-at="2019-11-25T09:01:20Z" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FatchProfile -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:20Z" name="initialization" finished-at="2019-11-25T09:01:20Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:20Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method signature="FatchContacts()[pri:19, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:20Z" name="FatchContacts" finished-at="2019-11-25T09:01:21Z" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FatchContacts -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:21Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:21Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:21Z" name="initialization" finished-at="2019-11-25T09:01:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="ProfileUpdate()[pri:20, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:21Z" name="ProfileUpdate" finished-at="2019-11-25T09:01:21Z" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfileUpdate -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:21Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:21Z" name="initialization" finished-at="2019-11-25T09:01:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="ContactUpdate()[pri:21, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:21Z" name="ContactUpdate" finished-at="2019-11-25T09:01:21Z" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUpdate -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:21Z" name="initialization" finished-at="2019-11-25T09:01:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:21Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method signature="QalificationMasters()[pri:22, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:21Z" name="QalificationMasters" finished-at="2019-11-25T09:01:22Z" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QalificationMasters -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:22Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:22Z" name="initialization" finished-at="2019-11-25T09:01:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="FatchEmploynment()[pri:23, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:22Z" name="FatchEmploynment" finished-at="2019-11-25T09:01:22Z" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FatchEmploynment -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:22Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:22Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:22Z" name="initialization" finished-at="2019-11-25T09:01:22Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="EmploymentUpdate()[pri:24, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:22Z" name="EmploymentUpdate" finished-at="2019-11-25T09:01:22Z" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmploymentUpdate -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:22Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:22Z" name="initialization" finished-at="2019-11-25T09:01:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="Decision2Initiate()[pri:25, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:22Z" name="Decision2Initiate" finished-at="2019-11-25T09:01:23Z" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Decision2Initiate -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:23Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method signature="Decision2Status()[pri:26, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:23Z" name="Decision2Status" finished-at="2019-11-25T09:01:25Z" duration-ms="2542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Decision2Status -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:23Z" name="initialization" finished-at="2019-11-25T09:01:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:25Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:25Z" name="initialization" finished-at="2019-11-25T09:01:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="Decision2Result()[pri:27, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:25Z" name="Decision2Result" finished-at="2019-11-25T09:01:25Z" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Decision2Result -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:25Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method signature="AppJourneyUpdate()[pri:28, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:25Z" name="AppJourneyUpdate" finished-at="2019-11-25T09:01:26Z" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppJourneyUpdate -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:25Z" name="initialization" finished-at="2019-11-25T09:01:25Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:26Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:26Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:26Z" name="initialization" finished-at="2019-11-25T09:01:26Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="LoanRequirment()[pri:29, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:26Z" name="LoanRequirment" finished-at="2019-11-25T09:01:26Z" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanRequirment -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:26Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:26Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:26Z" name="initialization" finished-at="2019-11-25T09:01:26Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="FatchFinanicaldetails()[pri:30, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:26Z" name="FatchFinanicaldetails" finished-at="2019-11-25T09:01:26Z" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FatchFinanicaldetails -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:26Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:26Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:26Z" name="initialization" finished-at="2019-11-25T09:01:26Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="UpdateFinancialDetails()[pri:31, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:26Z" name="UpdateFinancialDetails" finished-at="2019-11-25T09:01:27Z" duration-ms="540" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [dvVcqkVdFtn1RTlraS87oQzcdTARo8OugFce] but found [10009280901]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [dvVcqkVdFtn1RTlraS87oQzcdTARo8OugFce] but found [10009280901]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:442)
+at v2api_Repo.FinancialUpdate.BankDetailUpdate(FinancialUpdate.java:27)
+at v2api_TestCaseSuit.Alpha_yellow_suit.UpdateFinancialDetails(Alpha_yellow_suit.java:148)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateFinancialDetails -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:27Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method signature="GetArtifactsdetail()[pri:32, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:27Z" name="GetArtifactsdetail" finished-at="2019-11-25T09:01:28Z" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetArtifactsdetail -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:27Z" name="initialization" finished-at="2019-11-25T09:01:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:28Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:28Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:28Z" name="initialization" finished-at="2019-11-25T09:01:28Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="ArtifactsUpdate()[pri:33, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:28Z" name="ArtifactsUpdate" finished-at="2019-11-25T09:01:29Z" duration-ms="381" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:92)
+at org.junit.Assert.assertTrue(Assert.java:43)
+at org.junit.Assert.assertTrue(Assert.java:54)
+at v2api_Utilities.Validatable.success(Validatable.java:24)
+at v2api_Repo.ArtifactUpdate.UpdateArtifact(ArtifactUpdate.java:20)
+at v2api_TestCaseSuit.Alpha_yellow_suit.ArtifactsUpdate(Alpha_yellow_suit.java:156)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArtifactsUpdate -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:29Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:29Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:29Z" name="initialization" finished-at="2019-11-25T09:01:29Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="uploadprofilephoto()[pri:34, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:29Z" name="uploadprofilephoto" finished-at="2019-11-25T09:01:29Z" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadprofilephoto -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:29Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:29Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:29Z" name="initialization" finished-at="2019-11-25T09:01:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="MovetoInprogress()[pri:35, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:29Z" name="MovetoInprogress" finished-at="2019-11-25T09:01:30Z" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MovetoInprogress -->
+        <test-method is-config="true" signature="RequestResponsetoLog()[pri:0, instance:v2api_TestCaseSuit.Alpha_yellow_suit@32910148]" started-at="2019-11-25T09:01:30Z" name="RequestResponsetoLog" finished-at="2019-11-25T09:01:30Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestResponsetoLog -->
+      </class> <!-- v2api_TestCaseSuit.Alpha_yellow_suit -->
+    </test> <!-- Apitestsuite -->
+  </suite> <!-- AlphaTestsuite -->
+</testng-results>

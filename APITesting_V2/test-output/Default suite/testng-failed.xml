@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="v2api_TestCaseSuit.Alpha_yellow_suit">
+        <methods>
+          <include name="SetTestData"/>
+          <include name="TestCompletion"/>
+          <include name="RequestResponsetoLog"/>
+          <include name="setup"/>
+          <include name="FetchGPSlocation"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- v2api_TestCaseSuit.Alpha_yellow_suit -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
